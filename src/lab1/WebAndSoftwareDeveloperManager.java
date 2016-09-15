@@ -12,13 +12,13 @@ import javax.swing.JOptionPane;
  * @author wboyer
  */
 public abstract class WebAndSoftwareDeveloperManager {
-    private String courseName;
-    private String courseNumber;
+    private String courseName, courseNumber, prerequisites;
     private double credits;
 
-    public WebAndSoftwareDeveloperManager(String courseName, String courseNumber) {
+    public WebAndSoftwareDeveloperManager(String courseName, String courseNumber, String prerequisites) {
         setCourseName(courseName);
         setCourseNumber(courseNumber);
+        setPrerequisites(prerequisites);
     }
 
     public final String getCourseName() {
@@ -64,4 +64,16 @@ public abstract class WebAndSoftwareDeveloperManager {
         return this.getCourseName().toUpperCase();
     }
     
+    public final String getPrerequisites() {
+        return prerequisites;
+    }
+
+    public final void setPrerequisites(String prerequisites){
+        if(prerequisites == null || prerequisites.length() == 0) {
+            JOptionPane.showMessageDialog(null,
+                    "Error: prerequisites cannot be null of empty string");
+            System.exit(0);
+        }
+        this.prerequisites = prerequisites;
+    }
 }

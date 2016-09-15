@@ -9,7 +9,7 @@ package lab1;
  */
 public class IntroToProgrammingCourse extends WebAndSoftwareDeveloperManager {
 
-    public IntroToProgrammingCourse(String courseName, String courseNumber) {
-        super(courseName, courseNumber);
-    }    
+    public IntroToProgrammingCourse(String courseName, String courseNumber, String prerequisites) {
+        super(courseName, courseNumber, prerequisites);
+    }
 }
