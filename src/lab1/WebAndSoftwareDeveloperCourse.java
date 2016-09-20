@@ -11,11 +11,11 @@ import javax.swing.JOptionPane;
  *
  * @author wboyer
  */
-public abstract class WebAndSoftwareDeveloperManager {
+public abstract class WebAndSoftwareDeveloperCourse {
     private String courseName, courseNumber, prerequisites;
     private double credits;
 
-    public WebAndSoftwareDeveloperManager(String courseName, String courseNumber, String prerequisites) {
+    public WebAndSoftwareDeveloperCourse(String courseName, String courseNumber, String prerequisites) {
         setCourseName(courseName);
         setCourseNumber(courseNumber);
         setPrerequisites(prerequisites);

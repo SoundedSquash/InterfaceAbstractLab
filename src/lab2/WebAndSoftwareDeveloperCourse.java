@@ -9,7 +9,7 @@ package lab2;
  *
  * @author wboyer
  */
-public interface WebAndSoftwareDeveloperManager {
+public interface WebAndSoftwareDeveloperCourse {
     public abstract String getCourseNumber();
     
     public abstract void setCourseNumber(String courseNumber);

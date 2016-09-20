@@ -11,9 +11,9 @@ package lab2;
  */
 public class Startup {
     public static void main(String[] args) {
-    WebAndSoftwareDeveloperManager course1 = new IntroToProgrammingCourse("Intro to Programming", "152-107", "None");
-    WebAndSoftwareDeveloperManager course2 = new IntroJavaCourse("Intro to Java", "152-134", "Intro to Programming");
-    WebAndSoftwareDeveloperManager course3 = new AdvancedJavaCourse("Advanced Java", "152-135", "Java Programming");
+    WebAndSoftwareDeveloperCourse course1 = new IntroToProgrammingCourse("Intro to Programming", "152-107", "None");
+    WebAndSoftwareDeveloperCourse course2 = new IntroJavaCourse("Intro to Java", "152-134", "Intro to Programming");
+    WebAndSoftwareDeveloperCourse course3 = new AdvancedJavaCourse("Advanced Java", "152-135", "Java Programming");
     
         System.out.println(course1.getCourseName());
         System.out.println(course2.getCourseNumber());

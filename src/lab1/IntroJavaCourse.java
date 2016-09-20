@@ -6,7 +6,7 @@ package lab1;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroJavaCourse extends WebAndSoftwareDeveloperManager {
+public class IntroJavaCourse extends WebAndSoftwareDeveloperCourse {
 
     public IntroJavaCourse(String courseName, String courseNumber, String prerequisites) {
         super(courseName, courseNumber, prerequisites);

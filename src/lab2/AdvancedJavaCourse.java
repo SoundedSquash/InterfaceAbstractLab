@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class AdvancedJavaCourse implements WebAndSoftwareDeveloperManager {
+public class AdvancedJavaCourse implements WebAndSoftwareDeveloperCourse {
     private String courseName, courseNumber, prerequisites;
     private double credits;
 
