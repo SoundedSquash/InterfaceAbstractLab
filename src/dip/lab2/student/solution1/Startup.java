@@ -23,7 +23,7 @@ public class Startup {
     public static void main(String[] args) {
         TipManager calc = new FoodServiceTipCalculator(ServiceQuality.GOOD, 5, 23.49);
         
-        calc.getTip();
+        calc.getTip(); 
     }
 
 }
